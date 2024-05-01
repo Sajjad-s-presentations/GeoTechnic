@@ -10,6 +10,26 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
 # initialize the app with the extension
 db.init_app(app)
 
+# Defining the Engine
+engine = db.create_engine('sqlite:///users.db', echo=True)
+
+# Create the Metadata Object
+metadata_obj = db.MetaData()
+
+# Define the profile table
+
+# database name
+profile = db.Table(
+    'profile',
+    metadata_obj,
+    db.Column('email', db.String, primary_key=True),
+    db.Column('name', db.String),
+    db.Column('contact', db.Integer),
+)
+
+# Create the profile table
+metadata_obj.create_all(engine)
+
 class Tariff_list(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     id_no = db.Column(db.Integer, unique=True, nullable=False)
