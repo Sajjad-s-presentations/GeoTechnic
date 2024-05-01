@@ -1,12 +1,11 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
 
+# create the extension
+db = SQLAlchemy()
+# create the app
 app = Flask(__name__)
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
-db.create_all()
+# configure the SQLite database, relative to the app instance folder
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
+# initialize the app with the extension
+db.init_app(app)
