@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="SQLALCHEMY_TRACK_MODIFICATIONS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="define model">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714487338649</updated>
       <workItem from="1714487403397" duration="3550000" />
+      <workItem from="1714566284629" duration="299000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -130,7 +130,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
       <updated>1714491186393</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎−۰۰۰۰۸" summary="Configure the Extension">
+      <option name="closed" value="true" />
+      <created>1714566395281</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
+      <updated>1714566395281</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۰۹" summary="define model">
+      <option name="closed" value="true" />
+      <created>1714566437882</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
+      <updated>1714566437882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +156,9 @@
     <MESSAGE value="SQLALCHEMY_TACK_MODIFICATIONS" />
     <MESSAGE value="SQLALCHEMY_DATABASE_URI" />
     <MESSAGE value="SQLALCHEMY_TRACK_MODIFICATIONS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQLALCHEMY_TRACK_MODIFICATIONS" />
+    <MESSAGE value="Configure the Extension" />
+    <MESSAGE value="define model" />
+    <option name="LAST_COMMIT_MESSAGE" value="define model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714491346147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

@@ -10,7 +10,10 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project.db"
 # initialize the app with the extension
 db.init_app(app)
 
-class User(db.Model):
+class Tariff_list(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String, unique=True, nullable=False)
-    email = db.Column(db.String)
+    id_no = db.Column(db.Integer, unique=True, nullable=False)
+    description = db.Column(db.String(1000))
+
+with app.app_context():
+    db.create_all()
