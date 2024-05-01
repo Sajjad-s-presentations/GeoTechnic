@@ -18,6 +18,12 @@ class Tariff_list(db.Model):
 with app.app_context():
     db.create_all()
 
+
+@app.route("/users")
+def hello():
+    users = db.session.execute(db.select(Tariff_list).order_by(Tariff_list.id_no)).scalars()
+    return render_template("<h1>HELOOOOOOOOOO</h1>")
+
 @app.route("/users")
 def user_list():
     users = db.session.execute(db.select(Tariff_list).order_by(Tariff_list.id_no)).scalars()
