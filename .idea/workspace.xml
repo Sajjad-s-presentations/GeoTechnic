@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="connect to my sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,7 @@
       <workItem from="1714487403397" duration="3550000" />
       <workItem from="1714566284629" duration="5728000" />
       <workItem from="1714740204177" duration="45000" />
-      <workItem from="1714833857688" duration="702000" />
+      <workItem from="1714833857688" duration="1371000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -259,7 +261,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۳" />
       <updated>1714834120275</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL‎−۰۰۰۲۴" summary="connect to my sql">
+      <option name="closed" value="true" />
+      <created>1714834793545</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۴" />
+      <updated>1714834793545</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۵" summary="connect to my sql">
+      <option name="closed" value="true" />
+      <created>1714834803072</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۵" />
+      <updated>1714834803072</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۲۶" summary="connect to my sql">
+      <option name="closed" value="true" />
+      <created>1714834850708</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۶" />
+      <updated>1714834850708</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +319,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="connect to my sql" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714834430428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714835260227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

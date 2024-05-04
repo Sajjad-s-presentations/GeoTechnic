@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
-
 app = Flask(__name__)
+
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
@@ -10,16 +10,20 @@ app.config['MYSQL_DB'] = 'test'
 
 mysql = MySQL(app)
 
-# Creating a connection cursor
-cursor = mysql.connection.cursor()
 
-# Executing SQL Statements
-cursor.execute(''' CREATE TABLE table_name(field1, field2...) ''')
-cursor.execute(''' INSERT INTO table_name VALUES(v1,v2...) ''')
-cursor.execute(''' DELETE FROM table_name WHERE condition ''')
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == "POST":
+        details = request.form
+        firstName = details['fname']
+        lastName = details['lname']
+        cur = mysql.connection.cursor()
+        cur.execute("INSERT INTO name(firstname, lastname) VALUES (%s, %s)", (firstName, lastName))
+        mysql.connection.commit()
+        cur.close()
+        return 'success'
+    return render_template('list.html')
 
-# Saving the Actions performed on the DB
-mysql.connection.commit()
 
-# Closing the cursor
-cursor.close()
+if __name__ == '__main__':
+    app.run()
