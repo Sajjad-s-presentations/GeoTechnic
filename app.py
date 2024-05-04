@@ -6,6 +6,13 @@ db = DB(app)
 
 @app.route('/')
 def index():
+    id_no = "0123"
+    description = "این یک نمونه از توضیحات است"
+    unit = "متر مکعب"
+    cost = "1230000"
+    tags = "حفاری"
+    result = db.insert_to_tariff_list(id_no, description, unit, cost, tags)
+    return result
 
 
 """@app.route('/', methods=['GET', 'POST'])
