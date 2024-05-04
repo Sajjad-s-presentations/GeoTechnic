@@ -18,7 +18,7 @@ class DB:
 
     def insert_to_tariff_list(self, id_no, description, unit, cost, tags):
         connection = self.connect_db()
-        connection.execute("INSERT INTO tariff_list('id_no', 'description', 'unit', 'cost', 'tags') VALUES (id_no, description, unit, cost, tags)")
+        connection.execute("INSERT INTO tariff_list(id_no, description, unit, cost, tags) VALUES (%s, %s, %s, %d, %s)", (id_no, description, unit, cost, tags))
         self.mysql.connection.commit()
         connection.close()
         return 'success'
