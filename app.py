@@ -1,12 +1,14 @@
 from flask import Flask, render_template, request
-from flask_mysqldb import MySQL
+from models import DB
 app = Flask(__name__)
 
+db = DB(app)
 
-mysql = MySQL(app)
+@app.route('/')
+def index():
 
 
-@app.route('/', methods=['GET', 'POST'])
+"""@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == "POST":
         details = request.form
@@ -17,7 +19,7 @@ def index():
         mysql.connection.commit()
         cur.close()
         return 'success'
-    return render_template('list.html')
+    return render_template('list.html')"""
 
 
 if __name__ == '__main__':
