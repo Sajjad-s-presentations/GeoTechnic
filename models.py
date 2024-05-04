@@ -1,12 +1,18 @@
-from app import db
+from flask_mysqldb import MySQL
 
-class Tariff_list(db.Model):
+class DB:
 
-    __tablename__ = 'tariff_list'
+    def __init__(self, app):
 
-    id = db.Column(db.Integer, primary_key=True)
-    id_no = db.Column(db.Integer, unique=True)
-    description = db.Column(db.String(1000))
+        self.app = app
+        self.app.config['MYSQL_HOST'] = 'localhost'
+        self.app.config['MYSQL_USER'] = 'root'
+        self.app.config['MYSQL_PASSWORD'] = ''
+        self.app.config['MYSQL_DB'] = 'test'
 
-    def __repr__(self):
-        return f'Tariff {self.id_no} is {self.description}'
+        self.mysql = MySQL(self.app)
+
+    def connect_db(self):
+        connection = self.mysql.connection.cursor()
+        return connection
+
