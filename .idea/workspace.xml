@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="Tariff_list on models.py">
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="connect to my sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Flask server.geotechnic.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Flask server.geotechnic.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="geotechnic" type="Python.FlaskServer">
       <module name="geotechnic" />
@@ -96,6 +96,7 @@
       <workItem from="1714487403397" duration="3550000" />
       <workItem from="1714566284629" duration="5728000" />
       <workItem from="1714740204177" duration="45000" />
+      <workItem from="1714833857688" duration="702000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -251,7 +252,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۲۲" />
       <updated>1714577125738</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL‎−۰۰۰۲۳" summary="connect to my sql">
+      <option name="closed" value="true" />
+      <created>1714834120275</created>
+      <option name="number" value="LOCAL‎−۰۰۰۲۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۲۳" />
+      <updated>1714834120275</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,9 +292,10 @@
     <MESSAGE value="create_app" />
     <MESSAGE value="run program" />
     <MESSAGE value="Tariff_list on models.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tariff_list on models.py" />
+    <MESSAGE value="connect to my sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect to my sql" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714577108194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714834430428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
