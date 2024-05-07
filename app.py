@@ -1,4 +1,4 @@
-from flask import Flask, render_template, session
+from flask import Flask, render_template, session, request
 from functions import Administrator
 from models import DB
 
@@ -6,10 +6,14 @@ app = Flask(__name__)
 db = DB(app)
 app.secret_key = 'your secret key'
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def administrator_index():
-    administrator = Administrator(app, db)
-    msg = administrator.login('1', '1')
+    msg = ''
+    if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+        username = request.form['username']
+        password = request.form['password']
+        administrator = Administrator(app, db)
+        msg = administrator.login(username, password)
     return render_template('administrator/index.html', msg=msg)
 
 @app.route('/jjjjlguvgfol')
