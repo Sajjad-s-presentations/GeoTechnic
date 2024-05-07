@@ -8,7 +8,7 @@ class DB:
         self.app.config['MYSQL_HOST'] = 'localhost'
         self.app.config['MYSQL_USER'] = 'root'
         self.app.config['MYSQL_PASSWORD'] = ''
-        self.app.config['MYSQL_DB'] = 'test'
+        self.app.config['MYSQL_DB'] = 'administrator'
 
         self.mysql = MySQL(self.app)
 
