@@ -1,6 +1,4 @@
 from flask import session
-import MySQLdb.cursors
-import MySQLdb.cursors, re, hashlib
 from models import DB
 class Administrator:
     def __init__(self, app):

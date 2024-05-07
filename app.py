@@ -6,15 +6,11 @@ app = Flask(__name__)
 
 db = DB(app)
 
-@app.route('/administrator', methods=['GET', 'POST'])
+@app.route('/administrator')
 def administrator_index():
-    admin = Administrator(app)
-    if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-        # Create variables for easy access
-        username = request.form['username']
-        password = request.form['password']
-        log = admin.login(username, password)
-    return render_template('administrator/index.html', msg=log)
+   """ admin = Administrator(app)
+    log = admin.login('username', 'password')"""
+    return render_template('administrator/index.html', msg="hi")
 
 @app.route('/')
 def index():
