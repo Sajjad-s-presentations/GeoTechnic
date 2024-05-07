@@ -1,5 +1,5 @@
 from flask import session
-from models import DB
+from datetime import datetime
 class Administrator:
     def __init__(self, app, db):
         self.app = app
@@ -29,3 +29,14 @@ class Administrator:
             msg = 'Incorrect username/password!'
         # Show the login form with message (if any)
         return msg
+
+    def account_creator(self, id_no, name, state, phone):
+        now = datetime.now()
+        current_time = now.strftime("%y-%m-%d %H:%M:%S")
+
+        connection = self.db.connect_db()
+        connection.execute("INSERT INTO accounts(id_no, name, state, phone, start_date) VALUES (%s, %s, %s, %s, %s)",
+                           (id_no, name, state, phone, current_time))
+        self.db.mysql.connection.commit()
+        connection.close()
+        return 'success'

@@ -7,6 +7,20 @@ db = DB(app)
 app.secret_key = 'your secret key'
 
 @app.route('/', methods=['GET', 'POST'])
+def create_account():
+    if request.method == "POST":
+        admin = Administrator(app, db)
+        details = request.form
+        id_no = details['account_id_no']
+        name = details['account_name']
+        state = details['account_state']
+        phone = details['account_phone']
+        result = admin.account_creator(id_no, name, state, phone)
+        return result
+    else:
+        return render_template('administrator/create_account.html')
+
+@app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
     msg = ''
     if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
