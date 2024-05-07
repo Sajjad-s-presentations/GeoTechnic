@@ -1,14 +1,21 @@
 from flask import Flask, render_template, request, redirect, url_for, session
-
+from functions import Administrator
 
 from models import DB
 app = Flask(__name__)
 
 db = DB(app)
 
-@app.route('/administrator')
+@app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
-    return render_template('administrator/index.html')
+    admin = Administrator(app)
+    if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+        # Create variables for easy access
+        username = request.form['username']
+        password = request.form['password']
+        log = admin.login(username, password)
+    return render_template('administrator/index.html', msg=log)
+
 @app.route('/')
 def index():
     id_no = "0123"

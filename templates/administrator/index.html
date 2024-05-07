@@ -10,10 +10,10 @@
 		<div class="login">
 			<h1>Login</h1>
 			<div class="links">
-				<a href="" class="active">Login</a>
+				<a href="{{ url_for('administrator_index') }}" class="active">Login</a>
 				<a href="#">Register</a>
 			</div>
-			<form action="" method="post">
+			<form action="{{ url_for('administrator_index') }}" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
@@ -22,7 +22,7 @@
 					<i class="fas fa-lock"></i>
 				</label>
 				<input type="password" name="password" placeholder="Password" id="password" required>
-				<div class="msg"></div>
+				<div class="msg">{{ msg }}</div>
 				<input type="submit" value="Login">
 			</form>
 		</div>
