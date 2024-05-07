@@ -6,12 +6,11 @@ app = Flask(__name__)
 db = DB(app)
 app.secret_key = 'your secret key'
 
-@app.route('/administrator')
+@app.route('/')
 def administrator_index():
     administrator = Administrator(app, db)
     msg = administrator.login('1', '1')
-    return msg
-    #return render_template('administrator/index.html', msg=msg)
+    return render_template('administrator/index.html', msg=msg)
 
 @app.route('/jjjjlguvgfol')
 def index():
