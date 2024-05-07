@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="administrator login">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/administrator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -100,7 +101,7 @@
       <workItem from="1714740204177" duration="45000" />
       <workItem from="1714833857688" duration="3152000" />
       <workItem from="1715013190075" duration="2000" />
-      <workItem from="1715068112451" duration="2528000" />
+      <workItem from="1715068112451" duration="2837000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -403,7 +404,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۴۳" />
       <updated>1715070567721</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL‎−۰۰۰۴۴" summary="administrator login">
+      <option name="closed" value="true" />
+      <created>1715070810814</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۴" />
+      <updated>1715070810814</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۴۵" summary="administrator login">
+      <option name="closed" value="true" />
+      <created>1715070956534</created>
+      <option name="number" value="LOCAL‎−۰۰۰۴۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۴۵" />
+      <updated>1715070956534</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +460,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="administrator login" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715070664489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715070974740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
