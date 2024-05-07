@@ -8,9 +8,9 @@ db = DB(app)
 
 @app.route('/administrator')
 def administrator_index():
-   """ admin = Administrator(app)
-    log = admin.login('username', 'password')"""
-    return render_template('administrator/index.html', msg="hi")
+    administrator = Administrator(app)
+    msg = administrator.login('1', '2')
+    return render_template('administrator/index.html', msg=msg)
 
 @app.route('/')
 def index():
