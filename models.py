@@ -1,4 +1,4 @@
-from flask_mysqldb import MySQL
+from flask_mysqldb import *
 
 class DB:
 
@@ -13,7 +13,7 @@ class DB:
         self.mysql = MySQL(app)
 
     def connect_db(self):
-        connection = self.mysql.connection.cursor()
+        connection = self.mysql.connection.cursor(MySQLdb.cursors.DictCursor)
         return connection
 
     def insert_to_tariff_list(self, id_no, description, unit, cost, tags):
