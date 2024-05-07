@@ -1,16 +1,15 @@
 from flask import Flask, render_template, session
 from functions import Administrator
-
 from models import DB
-app = Flask(__name__)
 
+app = Flask(__name__)
 db = DB(app)
+app.secret_key = 'your secret key'
 
 @app.route('/administrator')
 def administrator_index():
-    """administrator = Administrator(app)
-    msg = administrator.login('1', '2')"""
-    msg ="test"
+    administrator = Administrator(app, db)
+    msg = administrator.login('1', '1')
     return msg
     #return render_template('administrator/index.html', msg=msg)
 

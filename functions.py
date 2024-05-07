@@ -1,8 +1,9 @@
 from flask import session
 from models import DB
 class Administrator:
-    def __init__(self, app):
-        self.db = DB(app)
+    def __init__(self, app, db):
+        self.app = app
+        self.db = db
 
     def login(self, username, password):
         # Output a message if something goes wrong...
