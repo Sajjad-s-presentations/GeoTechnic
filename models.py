@@ -10,7 +10,7 @@ class DB:
         self.app.config['MYSQL_PASSWORD'] = ''
         self.app.config['MYSQL_DB'] = 'administrator'
 
-        self.mysql = MySQL(self.app)
+        self.mysql = MySQL(app)
 
     def connect_db(self):
         connection = self.mysql.connection.cursor()

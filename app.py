@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session
 from functions import Administrator
 
 from models import DB
@@ -8,11 +8,13 @@ db = DB(app)
 
 @app.route('/administrator')
 def administrator_index():
-    administrator = Administrator(app)
-    msg = administrator.login('1', '2')
-    return render_template('administrator/index.html', msg=msg)
+    """administrator = Administrator(app)
+    msg = administrator.login('1', '2')"""
+    msg ="test"
+    return msg
+    #return render_template('administrator/index.html', msg=msg)
 
-@app.route('/')
+@app.route('/jjjjlguvgfol')
 def index():
     id_no = "0123"
     description = "این یک نمونه از توضیحات است"
