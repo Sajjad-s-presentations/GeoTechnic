@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="insert to sql" />
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="administrator login index">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +98,7 @@
       <workItem from="1714740204177" duration="45000" />
       <workItem from="1714833857688" duration="3152000" />
       <workItem from="1715013190075" duration="2000" />
+      <workItem from="1715068112451" duration="469000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="init">
       <option name="closed" value="true" />
@@ -328,7 +331,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۳۳" />
       <updated>1714836825821</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL‎−۰۰۰۳۴" summary="insert to sql">
+      <option name="closed" value="true" />
+      <created>1715068161450</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۴" />
+      <updated>1715068161450</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۳۵" summary="administrator login index">
+      <option name="closed" value="true" />
+      <created>1715068464130</created>
+      <option name="number" value="LOCAL‎−۰۰۰۳۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
+      <updated>1715068464130</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +380,8 @@
     <MESSAGE value="Tariff_list on models.py" />
     <MESSAGE value="connect to my sql" />
     <MESSAGE value="insert to sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert to sql" />
+    <MESSAGE value="administrator login index" />
+    <option name="LAST_COMMIT_MESSAGE" value="administrator login index" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1714836792481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />

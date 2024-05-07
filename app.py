@@ -4,6 +4,9 @@ app = Flask(__name__)
 
 db = DB(app)
 
+@app.route('/administrator')
+def administrator_index():
+    return render_template('administrator/index.html')
 @app.route('/')
 def index():
     id_no = "0123"
