@@ -24,9 +24,9 @@ class Administrator:
             session['id'] = account['id']
             session['username'] = account['username']
             # Redirect to home page
-            return 'Logged in successfully!'
+            msg = 'Logged in successfully!'
         else:
             # Account doesnt exist or username/password incorrect
             msg = 'Incorrect username/password!'
         # Show the login form with message (if any)
-        return True
+        return msg
