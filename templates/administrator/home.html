@@ -22,10 +22,13 @@
 </head>
 <body>
     <div class="navbar">
-        <form action="/administrator" method="get">
-            <input type="submit" name="page" value="home">
-            <input type="submit" name="page" value="home2">
-        </form>
+        <ul>
+            {% for item in nav.top %}
+            <li class="{{ 'active' if item.is_active else '' }}">
+                <a href="{{ item.url }}">{{ item.label }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
     <div class="content">
         <!-- محتوای داشبورد -->

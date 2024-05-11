@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="administrator inert account">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="homepage navbar">
+      <change beforePath="$PROJECT_DIR$/templates/administrator/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,97 +106,7 @@
       <workItem from="1715085053881" duration="1950000" />
       <workItem from="1715090050784" duration="3615000" />
       <workItem from="1715097333064" duration="36000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۴" summary="SQLALCHEMY_DATABASE_URI">
-      <option name="closed" value="true" />
-      <created>1714490866158</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۴" />
-      <updated>1714490866158</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۵" summary="SQLALCHEMY_TACK_MODIFICATIONS">
-      <option name="closed" value="true" />
-      <created>1714490918459</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۵" />
-      <updated>1714490918459</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۶" summary="SQLALCHEMY_DATABASE_URI">
-      <option name="closed" value="true" />
-      <created>1714491174324</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۶" />
-      <updated>1714491174324</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۷" summary="SQLALCHEMY_TRACK_MODIFICATIONS">
-      <option name="closed" value="true" />
-      <created>1714491186393</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۷" />
-      <updated>1714491186393</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۸" summary="Configure the Extension">
-      <option name="closed" value="true" />
-      <created>1714566395281</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۸" />
-      <updated>1714566395281</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۹" summary="define model">
-      <option name="closed" value="true" />
-      <created>1714566437882</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۹" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۹" />
-      <updated>1714566437882</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۰" summary="create table">
-      <option name="closed" value="true" />
-      <created>1714566706413</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۰" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۰" />
-      <updated>1714566706413</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۱" summary="create table">
-      <option name="closed" value="true" />
-      <created>1714567077273</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۱" />
-      <updated>1714567077273</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۲" summary="list">
-      <option name="closed" value="true" />
-      <created>1714567089149</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۲" />
-      <updated>1714567089149</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۳" summary="list">
-      <option name="closed" value="true" />
-      <created>1714567320872</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۳" />
-      <updated>1714567320872</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۴" summary="initpage">
-      <option name="closed" value="true" />
-      <created>1714567508542</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۴" />
-      <updated>1714567508542</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۵" summary="create user table">
-      <option name="closed" value="true" />
-      <created>1714567877803</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۵" />
-      <updated>1714567877803</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۶" summary="initial libs">
-      <option name="closed" value="true" />
-      <created>1714575565168</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۶" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۶" />
-      <updated>1714575565168</updated>
+      <workItem from="1715431337114" duration="4181000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۷" summary="create_app">
       <option name="closed" value="true" />
@@ -450,7 +360,98 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۵۲" />
       <updated>1715092857274</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL‎−۰۰۰۵۳" summary="homepage">
+      <option name="closed" value="true" />
+      <created>1715430837681</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۳" />
+      <updated>1715430837683</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۴" summary="homepage">
+      <option name="closed" value="true" />
+      <created>1715431491945</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۴" />
+      <updated>1715431491945</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۵" summary="homepage">
+      <option name="closed" value="true" />
+      <created>1715431738215</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۵" />
+      <updated>1715431738216</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۶" summary="homepage">
+      <option name="closed" value="true" />
+      <created>1715431831329</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۶" />
+      <updated>1715431831331</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۷" summary="homepage logout">
+      <option name="closed" value="true" />
+      <created>1715432278086</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۷" />
+      <updated>1715432278087</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۸" summary="homepage login function">
+      <option name="closed" value="true" />
+      <created>1715432723643</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۸" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۸" />
+      <updated>1715432723643</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۵۹" summary="homepage login function">
+      <option name="closed" value="true" />
+      <created>1715433023700</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۹" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۹" />
+      <updated>1715433023700</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۰" summary="homepage login function add token 4012c84cf11195274ec652190afb90d4">
+      <option name="closed" value="true" />
+      <created>1715433124009</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۰" />
+      <updated>1715433124009</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۱" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715434551244</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۱" />
+      <updated>1715434551244</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۲" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715434847506</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۲" />
+      <updated>1715434847506</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۳" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715434953910</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۳" />
+      <updated>1715434953910</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۴" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715435209430</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۴" />
+      <updated>1715435209430</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۶۵" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715435432170</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۵" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۵" />
+      <updated>1715435432170</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,11 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SQLALCHEMY_TACK_MODIFICATIONS" />
-    <MESSAGE value="SQLALCHEMY_DATABASE_URI" />
-    <MESSAGE value="SQLALCHEMY_TRACK_MODIFICATIONS" />
-    <MESSAGE value="Configure the Extension" />
-    <MESSAGE value="define model" />
     <MESSAGE value="create table" />
     <MESSAGE value="list" />
     <MESSAGE value="initpage" />
@@ -493,9 +489,24 @@
     <MESSAGE value="administrator login test render" />
     <MESSAGE value="administrator login test get data from form" />
     <MESSAGE value="administrator inert account" />
-    <option name="LAST_COMMIT_MESSAGE" value="administrator inert account" />
+    <MESSAGE value="homepage" />
+    <MESSAGE value="homepage logout" />
+    <MESSAGE value="homepage login function" />
+    <MESSAGE value="homepage login function add token 4012c84cf11195274ec652190afb90d4" />
+    <MESSAGE value="homepage navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage navbar" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715092619283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715435153576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
