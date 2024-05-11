@@ -1,4 +1,4 @@
-from flask import session
+from flask import session, render_template, redirect, url_for
 from datetime import datetime
 class Administrator:
     def __init__(self, app, db):
@@ -23,7 +23,7 @@ class Administrator:
             session['id'] = account['id']
             session['username'] = account['username']
             # Redirect to home page
-            msg = 'Logged in successfully!'
+            return redirect(url_for('administrator'))
         else:
             # Account doesnt exist or username/password incorrect
             msg = 'Incorrect username/password!'
