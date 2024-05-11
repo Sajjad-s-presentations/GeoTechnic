@@ -1,4 +1,4 @@
-from flask import Flask, render_template, session, request
+from flask import Flask, render_template, session, request, redirect, url_for
 from functions import Administrator
 from models import DB
 
@@ -34,6 +34,14 @@ def administrator_index():
             administrator = Administrator(app, db)
             msg = administrator.login(username, password)
         return render_template('administrator/index.html', msg=msg)
+
+@app.route('/logout')
+def logout():
+    # Remove session data, this will log the user out
+    session.pop('loggedin', None)
+    session.pop('id', None)
+    session.pop('username', None)
+    return "done"
 
 @app.route('/jjjjlguvgfol')
 def index():
