@@ -24,6 +24,8 @@ def create_account():
 @app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
     msg = ''
+    if request.method == 'GET' and "home" in request.form:
+        return render_template("administrator/index.html")
     # Check if the user is logged in
     if 'loggedin' in session:
         return render_template('administrator/home.html')
