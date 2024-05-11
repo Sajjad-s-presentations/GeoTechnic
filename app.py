@@ -17,19 +17,23 @@ def create_account():
         phone = details['account_phone']
         result = admin.account_creator(id_no, name, state, phone)
         return result
-    else:
+    #else:
         #return render_template('administrator/create_account.html')
-        return render_template('administrator/home.html')
+        #return render_template('administrator/home.html')
 
 @app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
     msg = ''
-    if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
-        username = request.form['username']
-        password = request.form['password']
-        administrator = Administrator(app, db)
-        msg = administrator.login(username, password)
-    return render_template('administrator/index.html', msg=msg)
+    # Check if the user is logged in
+    if 'loggedin' in session:
+        return render_template('administrator/home.html')
+    else:
+        if request.method == 'POST' and 'username' in request.form and 'password' in request.form:
+            username = request.form['username']
+            password = request.form['password']
+            administrator = Administrator(app, db)
+            msg = administrator.login(username, password)
+        return render_template('administrator/index.html', msg=msg)
 
 @app.route('/jjjjlguvgfol')
 def index():
