@@ -23,7 +23,7 @@ class Administrator:
             session['id'] = account['id']
             session['username'] = account['username']
             # Redirect to home page
-            msg = "ghoori"
+            msg = "4012c84cf11195274ec652190afb90d4"
         else:
             # Account doesnt exist or username/password incorrect
             msg = 'Incorrect username/password!'
