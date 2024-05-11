@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="administrator login test get data from form">
-      <change afterPath="$PROJECT_DIR$/templates/administrator/create_account.html" afterDir="false" />
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="administrator inert account">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,14 +104,8 @@
       <workItem from="1715068112451" duration="3057000" />
       <workItem from="1715083705412" duration="20000" />
       <workItem from="1715085053881" duration="1950000" />
-      <workItem from="1715090050784" duration="2508000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۰۳" summary="libs">
-      <option name="closed" value="true" />
-      <created>1714489360089</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
-      <updated>1714489360089</updated>
+      <workItem from="1715090050784" duration="3615000" />
+      <workItem from="1715097333064" duration="36000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۴" summary="SQLALCHEMY_DATABASE_URI">
       <option name="closed" value="true" />
@@ -452,7 +443,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۵۱" />
       <updated>1715086750390</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL‎−۰۰۰۵۲" summary="administrator inert account">
+      <option name="closed" value="true" />
+      <created>1715092857273</created>
+      <option name="number" value="LOCAL‎−۰۰۰۵۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۵۲" />
+      <updated>1715092857274</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="libs" />
     <MESSAGE value="SQLALCHEMY_TACK_MODIFICATIONS" />
     <MESSAGE value="SQLALCHEMY_DATABASE_URI" />
     <MESSAGE value="SQLALCHEMY_TRACK_MODIFICATIONS" />
@@ -495,9 +492,10 @@
     <MESSAGE value="administrator login test accepted" />
     <MESSAGE value="administrator login test render" />
     <MESSAGE value="administrator login test get data from form" />
-    <option name="LAST_COMMIT_MESSAGE" value="administrator login test get data from form" />
+    <MESSAGE value="administrator inert account" />
+    <option name="LAST_COMMIT_MESSAGE" value="administrator inert account" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715092562879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715092619283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

@@ -18,7 +18,8 @@ def create_account():
         result = admin.account_creator(id_no, name, state, phone)
         return result
     else:
-        return render_template('administrator/create_account.html')
+        #return render_template('administrator/create_account.html')
+        return render_template('administrator/home.html')
 
 @app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
