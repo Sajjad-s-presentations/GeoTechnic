@@ -4,6 +4,7 @@ from models import DB
 
 app = Flask(__name__)
 db = DB(app)
+
 app.secret_key = 'your secret key'
 
 @app.route('/', methods=['GET', 'POST'])

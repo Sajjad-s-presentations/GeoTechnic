@@ -1,9 +1,16 @@
 from flask import session, render_template, redirect, url_for
 from datetime import datetime
+from flask_navigation import Navigation
 class Administrator:
     def __init__(self, app, db):
         self.app = app
         self.db = db
+        self.nav = Navigation(app)
+        # initializing Navigations
+        self.nav.Bar('top', [
+            self.nav.Item('Home', 'index'),
+            self.nav.Item('Gfg', 'gfg', {'page': 5}),
+        ])
 
     def login(self, username, password):
         # Output a message if something goes wrong...
