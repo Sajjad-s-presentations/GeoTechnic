@@ -23,7 +23,7 @@ class Administrator:
             session['id'] = account['id']
             session['username'] = account['username']
             # Redirect to home page
-            return redirect(url_for('administrator'))
+            msg = "ghoori"
         else:
             # Account doesnt exist or username/password incorrect
             msg = 'Incorrect username/password!'
