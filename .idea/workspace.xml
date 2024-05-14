@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add header css on index.html">
-      <change beforePath="$PROJECT_DIR$/templates/administrator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add header js on index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,21 +106,7 @@
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
       <workItem from="1715444876592" duration="91000" />
-      <workItem from="1715693291478" duration="3006000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۷" summary="connect to my sql">
-      <option name="closed" value="true" />
-      <created>1714835360399</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۷" />
-      <updated>1714835360399</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۸" summary="connect to my sql">
-      <option name="closed" value="true" />
-      <created>1714836033311</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۸" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۸" />
-      <updated>1714836033311</updated>
+      <workItem from="1715693291478" duration="3314000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۹" summary="insert to sql">
       <option name="closed" value="true" />
@@ -453,7 +437,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۵" />
       <updated>1715696474197</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL‎−۰۰۰۷۶" summary="add header css on index.html">
+      <option name="closed" value="true" />
+      <created>1715696549687</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۶" />
+      <updated>1715696549687</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۷۷" summary="add header js on index.html">
+      <option name="closed" value="true" />
+      <created>1715696825345</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۷" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۷" />
+      <updated>1715696825345</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run program" />
     <MESSAGE value="Tariff_list on models.py" />
     <MESSAGE value="connect to my sql" />
     <MESSAGE value="insert to sql" />
@@ -496,7 +493,8 @@
     <MESSAGE value="new front on fees.html" />
     <MESSAGE value="add topbar css on index.html" />
     <MESSAGE value="add header css on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header css on index.html" />
+    <MESSAGE value="add header js on index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add header js on index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,6 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715696513649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715696815428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

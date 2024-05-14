@@ -78,7 +78,7 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ url_for('static',filename='admin_assets/css/style.css') }}" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='assets/css/jquery-te-1.4.0.css') }}">
+  <link type="text/css" href="{{ url_for('static',filename='admin_assets/css/jquery-te-1.4.0.css') }}" rel="stylesheet">
 
   <script src="{{ url_for('static',filename='admin_assets/vendor/jquery/jquery.min.js') }}"></script>
   <script src="{{ url_for('static',filename='admin_assets/DataTables/datatables.min.js') }}"></script>
@@ -114,7 +114,7 @@
       <div class="modal-content">
         <div class="modal-header">
         <h5 class="modal-title">تاییدیه</h5>
-            {% include 'administrator/fees.html' %}
+
       </div>
       <div class="modal-body">
         <div id="delete_content"></div>

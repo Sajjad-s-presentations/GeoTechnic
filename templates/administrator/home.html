@@ -44,7 +44,7 @@
                     <?php echo "Welcome back ". $_SESSION['login_name']."!"  ?>
                     <hr>
                 </div>
-            </div>      			
+            </div>
         </div>
     </div>
 </div>
@@ -69,7 +69,7 @@
                     },800)
 
                 }
-                
+
             }
         })
     })
