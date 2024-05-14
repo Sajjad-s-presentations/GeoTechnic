@@ -35,7 +35,7 @@ def administrator_index():
             password = request.form['password']
             administrator = Administrator(app, db)
             msg = administrator.login(username, password)
-            if msg == "4012c84cf11195274ec652190afb90d4":
+            if msg == "ghoori":
                 return render_template('administrator/home.html')
         return render_template('administrator/index.html', msg=msg)
 
