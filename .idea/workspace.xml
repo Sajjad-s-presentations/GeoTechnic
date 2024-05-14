@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="homepage navbar">
-      <change beforePath="$PROJECT_DIR$/templates/administrator/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="homepage navbar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,13 +105,7 @@
       <workItem from="1715090050784" duration="3615000" />
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۱۷" summary="create_app">
-      <option name="closed" value="true" />
-      <created>1714576215785</created>
-      <option name="number" value="LOCAL‎−۰۰۰۱۷" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۱۷" />
-      <updated>1714576215785</updated>
+      <workItem from="1715444876592" duration="91000" />
     </task>
     <task id="LOCAL‎−۰۰۰۱۸" summary="create_app">
       <option name="closed" value="true" />
@@ -451,7 +443,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۵" />
       <updated>1715435432170</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL‎−۰۰۰۶۶" summary="homepage navbar">
+      <option name="closed" value="true" />
+      <created>1715444907707</created>
+      <option name="number" value="LOCAL‎−۰۰۰۶۶" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۶۶" />
+      <updated>1715444907709</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
