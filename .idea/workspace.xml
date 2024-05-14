@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add header on index.html">
-      <change afterPath="$PROJECT_DIR$/templates/administrator/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/administrator/topbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/administrator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="new directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,28 +115,7 @@
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
       <workItem from="1715444876592" duration="91000" />
-      <workItem from="1715693291478" duration="4043000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۳" summary="insert to sql">
-      <option name="closed" value="true" />
-      <created>1714836825821</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۳" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۳" />
-      <updated>1714836825821</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۴" summary="insert to sql">
-      <option name="closed" value="true" />
-      <created>1715068161450</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۴" />
-      <updated>1715068161450</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۵" summary="administrator login index">
-      <option name="closed" value="true" />
-      <created>1715068464130</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۵" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۵" />
-      <updated>1715068464130</updated>
+      <workItem from="1715693291478" duration="4417000" />
     </task>
     <task id="LOCAL‎−۰۰۰۳۶" summary="administrator login index">
       <option name="closed" value="true" />
@@ -464,7 +439,28 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۸۱" />
       <updated>1715697313096</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL‎−۰۰۰۸۲" summary="add header on index.html">
+      <option name="closed" value="true" />
+      <created>1715697589185</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۲" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۲" />
+      <updated>1715697589185</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۳" summary="add header on index.html">
+      <option name="closed" value="true" />
+      <created>1715697656162</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۳" />
+      <updated>1715697656162</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۴" summary="new directory">
+      <option name="closed" value="true" />
+      <created>1715697738715</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۴" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۴" />
+      <updated>1715697738715</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="connect to my sql" />
     <MESSAGE value="insert to sql" />
     <MESSAGE value="administrator login style" />
     <MESSAGE value="administrator login index" />
@@ -507,7 +502,8 @@
     <MESSAGE value="add header css on index.html" />
     <MESSAGE value="add header js on index.html" />
     <MESSAGE value="add header on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header on index.html" />
+    <MESSAGE value="new directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="new directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715697549725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715697629432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
