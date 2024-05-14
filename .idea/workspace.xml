@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add header js on index.html">
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add header on index.html">
+      <change afterPath="$PROJECT_DIR$/templates/administrator/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/administrator/topbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/administrator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Flask server.geotechnic.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Flask server.geotechnic.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Plus/PycharmProjects/geotechnic/templates/administrator",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Plus\PycharmProjects\geotechnic\templates\administrator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Plus\PycharmProjects\geotechnic\templates\administrator" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="geotechnic" type="Python.FlaskServer">
       <module name="geotechnic" />
@@ -108,21 +119,7 @@
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
       <workItem from="1715444876592" duration="91000" />
-      <workItem from="1715693291478" duration="3641000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۱" summary="insert to sql">
-      <option name="closed" value="true" />
-      <created>1714836727459</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۱" />
-      <updated>1714836727459</updated>
-    </task>
-    <task id="LOCAL‎−۰۰۰۳۲" summary="insert to sql">
-      <option name="closed" value="true" />
-      <created>1714836779585</created>
-      <option name="number" value="LOCAL‎−۰۰۰۳۲" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۳۲" />
-      <updated>1714836779585</updated>
+      <workItem from="1715693291478" duration="4043000" />
     </task>
     <task id="LOCAL‎−۰۰۰۳۳" summary="insert to sql">
       <option name="closed" value="true" />
@@ -453,7 +450,21 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۹" />
       <updated>1715697131395</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL‎−۰۰۰۸۰" summary="add header on index.html">
+      <option name="closed" value="true" />
+      <created>1715697190125</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۰" />
+      <updated>1715697190125</updated>
+    </task>
+    <task id="LOCAL‎−۰۰۰۸۱" summary="add header on index.html">
+      <option name="closed" value="true" />
+      <created>1715697313096</created>
+      <option name="number" value="LOCAL‎−۰۰۰۸۱" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۸۱" />
+      <updated>1715697313096</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tariff_list on models.py" />
     <MESSAGE value="connect to my sql" />
     <MESSAGE value="insert to sql" />
     <MESSAGE value="administrator login style" />
@@ -496,7 +506,8 @@
     <MESSAGE value="add topbar css on index.html" />
     <MESSAGE value="add header css on index.html" />
     <MESSAGE value="add header js on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add header js on index.html" />
+    <MESSAGE value="add header on index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add header on index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -509,6 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715697152327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715697549725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

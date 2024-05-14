@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    {% include 'header.html' %}
+    {% include 'administrator/header.html' %}
 
   <title>خانه</title>
 
@@ -51,6 +51,22 @@
     max-width: calc(100%);
   }
 </style>
+
+
+<style>
+	.logo {
+    margin: auto;
+    font-size: 20px;
+    background: white;
+    padding: 7px 11px;
+    border-radius: 50% 50%;
+    color: #000000b3;
+}
+</style>
+
+{% include 'administrator/topbar.html' %}
+{% include 'administrator/navbar.html' %}
+
 
 <body>
   <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
