@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="new front">
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="new front on home.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/administrator/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/administrator/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/administrator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +111,7 @@
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
       <workItem from="1715444876592" duration="91000" />
-      <workItem from="1715693291478" duration="1668000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۱" summary="Tariff_list on models.py">
-      <option name="closed" value="true" />
-      <created>1714577101672</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۱" />
-      <updated>1714577101672</updated>
+      <workItem from="1715693291478" duration="2040000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۲" summary="Tariff_list on models.py">
       <option name="closed" value="true" />
@@ -454,7 +449,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۶۹" />
       <updated>1715695063947</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL‎−۰۰۰۷۰" summary="new front on index.html">
+      <option name="closed" value="true" />
+      <created>1715695395296</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۰" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۰" />
+      <updated>1715695395296</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,8 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="list" />
-    <MESSAGE value="initpage" />
     <MESSAGE value="create user table" />
     <MESSAGE value="initial libs" />
     <MESSAGE value="create_app" />
@@ -497,7 +497,9 @@
     <MESSAGE value="homepage login function add token 4012c84cf11195274ec652190afb90d4" />
     <MESSAGE value="homepage navbar" />
     <MESSAGE value="new front" />
-    <option name="LAST_COMMIT_MESSAGE" value="new front" />
+    <MESSAGE value="new front on index.html" />
+    <MESSAGE value="new front on home.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="new front on home.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,6 +512,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715695163364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/geotechnic$geotechnic.coverage" NAME="geotechnic Coverage Results" MODIFIED="1715695524302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
