@@ -5,7 +5,6 @@ class Administrator:
         self.app = app
         self.db = db
 
-
     def login(self, username, password):
         # Output a message if something goes wrong...
         msg = ''

@@ -4,7 +4,6 @@ from models import DB
 
 app = Flask(__name__)
 db = DB(app)
-
 app.secret_key = 'your secret key'
 
 @app.route('/', methods=['GET', 'POST'])
@@ -25,7 +24,6 @@ def create_account():
 @app.route('/administrator', methods=['GET', 'POST'])
 def administrator_index():
     msg = ''
-
     # Check if the user is logged in
     if 'loggedin' in session:
         return render_template('administrator/home.html')
