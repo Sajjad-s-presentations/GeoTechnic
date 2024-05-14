@@ -13,11 +13,11 @@
 }
 </style>
 <div class="container-fluid">
-	
+
 	<div class="col-lg-12">
 		<div class="row mb-4 mt-4">
 			<div class="col-md-12">
-				
+
 			</div>
 		</div>
 		<div class="row">
@@ -29,7 +29,7 @@
 					<div class="card-header">
 						<b>لیست فاکتورها </b>
 						<span class="float:right"><a class="btn btn-primary btn-block btn-sm col-sm-2 float-right" href="javascript:void(0)" id="new_fees">
-					<i class="fa fa-plus"></i> جدید 
+					<i class="fa fa-plus"></i> جدید
 				</a></span>
 					</div>
 					<div class="card-body">
@@ -46,7 +46,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php 
+								<?php
 								$i = 1;
 								$fees = $conn->query("SELECT ef.*,s.name as sname,s.id_no FROM student_ef_list ef inner join student s on s.id = ef.student_id order by s.name asc ");
 								while($row=$fees->fetch_assoc()):
@@ -87,11 +87,11 @@
 			</div>
 			<!-- Table Panel -->
 		</div>
-	</div>	
+	</div>
 
 </div>
 <style>
-	
+
 	td{
 		vertical-align: middle !important;
 	}
@@ -107,18 +107,18 @@
 	$(document).ready(function(){
 		$('table').dataTable()
 	})
-	
+
 	$('.view_payment').click(function(){
 		uni_modal("<?php echo jdate('Y/m/d');?>","view_payment.php?ef_id="+$(this).attr('data-id')+"&pid=0","mid-large")
-		
+
 	})
 	$('#new_fees').click(function(){
 		uni_modal("ثبت سند","manage_fee.php","mid-large")
-		
+
 	})
 	$('.edit_fees').click(function(){
 		uni_modal("ویرایش سند","manage_fee.php?id="+$(this).attr('data-id'),"mid-large")
-		
+
 	})
 	$('.delete_fees').click(function(){
 		_conf("Are you sure to delete this fees ?","delete_fees",[$(this).attr('data-id')])
