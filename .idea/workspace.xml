@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="new front on fees.html">
-      <change afterPath="$PROJECT_DIR$/templates/administrator/fees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/administrator/fees.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/administrator/fees.php" afterDir="false" />
-    </list>
+    <list default="true" id="4bd50120-0cd1-4fc3-b203-c2d29459f8f1" name="Changes" comment="add topbar css on index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,14 +106,7 @@
       <workItem from="1715097333064" duration="36000" />
       <workItem from="1715431337114" duration="4181000" />
       <workItem from="1715444876592" duration="91000" />
-      <workItem from="1715693291478" duration="2346000" />
-    </task>
-    <task id="LOCAL‎−۰۰۰۲۴" summary="connect to my sql">
-      <option name="closed" value="true" />
-      <created>1714834793545</created>
-      <option name="number" value="LOCAL‎−۰۰۰۲۴" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۲۴" />
-      <updated>1714834793545</updated>
+      <workItem from="1715693291478" duration="2677000" />
     </task>
     <task id="LOCAL‎−۰۰۰۲۵" summary="connect to my sql">
       <option name="closed" value="true" />
@@ -455,7 +444,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۷۲" />
       <updated>1715695855876</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL‎−۰۰۰۷۳" summary="add topbar css on index.html">
+      <option name="closed" value="true" />
+      <created>1715696120059</created>
+      <option name="number" value="LOCAL‎−۰۰۰۷۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۷۳" />
+      <updated>1715696120059</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial libs" />
     <MESSAGE value="create_app" />
     <MESSAGE value="run program" />
     <MESSAGE value="Tariff_list on models.py" />
@@ -498,7 +493,8 @@
     <MESSAGE value="new front on index.html" />
     <MESSAGE value="new front on home.html" />
     <MESSAGE value="new front on fees.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="new front on fees.html" />
+    <MESSAGE value="add topbar css on index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add topbar css on index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
